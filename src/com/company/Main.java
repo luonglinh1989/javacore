@@ -1,27 +1,39 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
+
     public static void main(String[] args) {
-
-        double a = 6;
-        double b = 3;
-        double c = a/b;
-        double c1 = a+b;
-        double c2 = a-b;
-        double c3 = a*b;
-        double c4 = b/a;
-        System.out.println(c);
-        System.out.println(c1);
-        System.out.println(c2);
-        System.out.println(c3);
-        System.out.println(c4);
-
-        int a1 = 6;
-        int a2 =(int)a1++;
-        System.out.println(a2);
-
-        int a3 = (int)++a1;
-        System.out.println(a3);
+//        int n = 4;
+//        for (int i = 1; i <= n; i++){
+//        for (int j = 1; j <= i; j++ ){
+//            System.out.print(" * ");
+//        }
+//            System.out.println();
+//        }
+//        int a = 4;
+//        int b =4;
+//        for (int i = 0; i < a; i++){
+//            for (int j= 0; j < b; j++){
+//                System.out.print(" * ");
+//            }
+//            System.out.println();
+//        }
+        String title = "You only live once, but if you do it right, once is enough";
+        int size = title.length();
+        System.out.println("Độ dài của chuỗi là: " + size );
+        String s;
+        Scanner sc = new Scanner(System.in);
+        char c;
+        c = sc.next().charAt(0);
+        int count = 0;
+        for (int i = 0; i < s.length(); i++){
+            if(s.charAt(i) = title){
+                count++;
+            }
+            System.out.println("Số lần xuất hiện:");
+        }
 
 
 
